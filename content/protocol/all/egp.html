@@ -3,7 +3,7 @@
 <head>
 	<!-- Charset -->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title></title>
+	<title>EGP</title>
 	<!-- Include meta tag to ensure proper rendering and touch zooming-->
 	<meta name="view-port" content="width=device-width, initial-scale=1">
 	<!-- Include jQuery Mobile stylesheets -->
@@ -32,13 +32,28 @@
 
 	<div data-role="main" class="ui-content">
 
-		<h3></h3>
+		<h3>EGP</h3>
 
-		<p></p>
+		<p><strong>EGP</strong> (сокр. от англ. Exterior Gateway Protocol, протокол внешнего шлюза) — устаревший протокол обмена информации между маршрутизаторами нескольких автономных систем. Разработан в 82-84 годах. Впоследствии был заменён на BGP.</p>
 		
-		<p></p>
-		
-		<p></p>
+		<hr><h3>Типы сообщений</h3>
+
+		<ul>
+			<li>Request — Запрос на захват соседей и/или установки настроек опроса</li>
+			<li>Confirm — Подтверждение запроса request</li>
+			<li>Refuse — Отказ в захвате соседей</li>
+			<li>Cease — Запрос на перезахват соседей</li>
+			<li>Cease-ack — подтверждение перезахвата соседей</li>
+			<li>Hello — проверка доступности соседей</li>
+			<li>I-H-U — ответ на запрос о доступности (англ. I hear you, я тебя слышу)</li>
+			<li>Poll — запрос на обновление информации о доступности сети</li>
+			<li>Update — обновление информации о доступности сети</li>
+			<li>Error — ошибка</li>
+		</ul>
+
+		<hr><h3>Формат заголовка сообщения</h3>
+
+		<center><img src="../../../images/protocol/egp.png"></center>
 
 	</div>
 
