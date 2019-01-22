@@ -3,7 +3,7 @@
 <head>
 	<!-- Charset -->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title></title>
+	<title>SCP</title>
 	<!-- Include meta tag to ensure proper rendering and touch zooming-->
 	<meta name="view-port" content="width=device-width, initial-scale=1">
 	<!-- Include jQuery Mobile stylesheets -->
@@ -32,13 +32,27 @@
 
 	<div data-role="main" class="ui-content">
 
-		<h3></h3>
+		<h3>SCP</h3>
 
-		<p></p>
-		
-		<p></p>
-		
-		<p></p>
+		<p><strong>SCP</strong> (secure copy) — утилита и протокол копирования файлов между компьютерами, использующий в отличие от утилиты RCP в качестве транспорта не RSH, а шифрованный SSH. Сходная по функционалу утилита — sftp.</p>
+
+		<p>В UNIX-подобных операционных системах одноимённая (scp) утилита удалённого копирования файлов часто входит в состав пакета openssh.</p>
+
+		<p>Команда копирования локального SourceFile на удалённый хост:</p>
+
+		<center><img src="../../../images/protocol/scp1.png"></center>
+
+		<p>Команда копирования SourceFile с удалённого хоста:</p>
+
+		<center><img src="../../../images/protocol/scp2.png"></center>
+
+		<p>Если ssh работает на другом порту, то тогда указывается:</p>
+
+		<center><img src="../../../images/protocol/scp3.png"></center>
+
+		<p>Копирование SourceFolder с удалённого хоста внутрь локального TargetFolder (на локальном хосте получится, что SourceFolder будет находиться внутри TargetFolder):</p>
+
+		<center><img src="../../../images/protocol/scp4.png"></center>
 
 	</div>
 
