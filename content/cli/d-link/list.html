@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Charset -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>D-Link</title>
+	<!-- Include meta tag to ensure proper rendering and touch zooming-->
+	<meta name="view-port" content="width=device-width, initial-scale=1">
+	<!-- Include jQuery Mobile stylesheets -->
+	<link rel="stylesheet" href="../../../css/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="../../../css/themes/my-theme.css" />
+	<link rel="stylesheet" href="../../../css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="../../../css/my-style.css" />
+	<!-- Include the jQuery Mobile library -->
+	<script type="text/javascript" src="../../../js/jquery-1.11.3.min.js"></script>
+	<!-- Include the jQuery Mobile library -->
+	<script type="text/javascript" src="../../../js/jquery.mobile-1.4.5.min.js"></script>
+	<!-- AdMob-->
+	<script type="text/javascript" src="../../../js/admob.js"></script>
+	<!-- cordova js -->
+	<script src="../../../cordova.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="position" data-theme="a">
+
+	<div data-role="header" data-position="fixed">
+		<a data-role="button" data-rel="back" data-ajax="false" class="ui-nodisc-icon transparentButton" data-icon="carat-l" data-iconpos="notext" data-theme="a">Кнопка назад</a>
+		<h1>D-Link</h1>
+		<a href="../../../index.html" data-ajax="false" class="ui-nodisc-icon transparentButton" data-role="button" data-icon="home" data-iconpos="notext" data-shadow="false" data-transition="none" data-theme="a">На главную</a>
+	</div>
+
+	<div data-role="main" class="ui-content">
+
+		<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Поиск..">
+
+			<li data-icon="false">
+				<a href="item-1.html" data-transition="none" data-ajax="false">
+					<h2>show switch</h2>
+					<p>Просмотр основных характеристик коммутатора.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-2.html" data-transition="none" data-ajax="false">
+					<h2>show utilization cpu</h2>
+					<p>Просмотр загрузки процессора (CPU).</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-3.html" data-transition="none" data-ajax="false">
+					<h2>show config current_config</h2>
+					<p>Просмотр текущей конфигурации.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-4.html" data-transition="none" data-ajax="false">
+					<h2>show config config_in_nvram</h2>
+					<p>Просмотр конфигурации в nvram.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-5.html" data-transition="none" data-ajax="false">
+					<h2>save</h2>
+					<p>Сохранение текущей конфигурации.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-6.html" data-transition="none" data-ajax="false">
+					<h2>reset system</h2>
+					<p>Сброс к заводским настройкам.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-7.html" data-transition="none" data-ajax="false">
+					<h2>config ipif [имя_интерфейса] ipaddress [ip-адрес/маска]</h2>
+					<p>Настройка IP адреса и сетевой маски.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-8.html" data-transition="none" data-ajax="false">
+					<h2>show ipif</h2>
+					<p>Просмотр интерфейсов управления.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-9.html" data-transition="none" data-ajax="false">
+					<h2>create iproute default [ip-адрес_шлюза]</h2>
+					<p>Задание шлюза по умолчанию.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-10.html" data-transition="none" data-ajax="false">
+					<h2>show iproute</h2>
+					<p>Просмотра маршрута по умолчанию.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-11.html" data-transition="none" data-ajax="false">
+					<h2>delete iproute default</h2>
+					<p>Удаление маршрута по умолчанию.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-12.html" data-transition="none" data-ajax="false">
+					<h2>show vlan</h2>
+					<p>Просмотр всех созданных vlan.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-13.html" data-transition="none" data-ajax="false">
+					<h2>create vlan [имя_vlan] tag [номер_vlan]</h2>
+					<p>Создание vlan.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-14.html" data-transition="none" data-ajax="false">
+					<h2>config vlan [имя_vlan] add [untagged | untagged| forbidden] [порты]</h2>
+					<p>Добавление vlan на порты.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-15.html" data-transition="none" data-ajax="false">
+					<h2>config ipif [имя_интерфейса] vlan [имя_vlan] ipaddress [ip-адрес/маска] state enable</h2>
+					<p>Настройка vlan управления коммутатора.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-16.html" data-transition="none" data-ajax="false">
+					<h2>config vlan default delete 1-26</h2>
+					<p>Удаление default vlan со всех портов.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-17.html" data-transition="none" data-ajax="false">
+					<h2>create account [уровень доступа] [имя_пользователя]</h2>
+					<p>Настройка имени пользователя и пароля.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-18.html" data-transition="none" data-ajax="false">
+					<h2>show account</h2>
+					<p>Просмотр учетной записи.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-19.html" data-transition="none" data-ajax="false">
+					<h2>config account [имя_пользователя]</h2>
+					<p>Cменить пароль существующему пользователю.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-20.html" data-transition="none" data-ajax="false">
+					<h2>show fdb</h2>
+					<p>Просмотр таблицы mac-адресов.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-21.html" data-transition="none" data-ajax="false">
+					<h2>show fdb port [номер порта]</h2>
+					<p>Просмотр таблицы mac-адресов для определенного порта.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-22.html" data-transition="none" data-ajax="false">
+					<h2>show arpentry</h2>
+					<p>Просмотр arp табицы.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-23.html" data-transition="none" data-ajax="false">
+					<h2>show ports</h2>
+					<p>Просмотр режимов работы портов (Speed, Duplex, FlowCtrl).</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-24.html" data-transition="none" data-ajax="false">
+					<h2>show error ports [номер_порта]</h2>
+					<p>Просмотр ошибок на портe.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-25.html" data-transition="none" data-ajax="false">
+					<h2>show utilization ports</h2>
+					<p>Просмотр статистики по всем портам.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-26.html" data-transition="none" data-ajax="false">
+					<h2>config ports [номер_порта] description [коментарий]</h2>
+					<p>Установка комментария на порт коммутатора.</p>
+				</a>
+			</li>
+
+			<li data-icon="false">
+				<a href="item-27.html" data-transition="none" data-ajax="false">
+					<h2>reboot</h2>
+					<p>Перезагрузка коммутатора.</p>
+				</a>
+			</li>
+
+		</ul>
+
+	</div>
+
+</div>
+
+
+</body>
+</html>
